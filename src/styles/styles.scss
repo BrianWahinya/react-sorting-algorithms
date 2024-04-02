@@ -1,0 +1,13 @@
+main {
+  min-width: 100%;
+}
+.div-sort {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  .sort-item {
+    border: 1px red solid;
+    flex-grow: 1;
+  }
+}

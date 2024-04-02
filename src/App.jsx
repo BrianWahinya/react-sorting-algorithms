@@ -5,6 +5,7 @@ import { InsertionSort, SelectionSort } from "./sorting-algorithms";
 
 import icon_sort from "/icon_sort.svg";
 import "./App.css";
+import "./styles/styles.css";
 
 const router = createBrowserRouter([
   {
@@ -35,9 +36,7 @@ function Layout() {
   return (
     <>
       <header>Navbar</header>
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
       <footer>{new Date().getFullYear()} &copy; BrianWahinya</footer>
     </>
   );
