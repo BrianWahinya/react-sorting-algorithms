@@ -8,8 +8,8 @@ Still under development:
 
 **1. Algorithms**
 
-- [ ] Selection
-- [ ] Insertion
+- [x] Selection
+- [x] Insertion
 - [ ] Counting
 - [ ] Merge sort
 - [ ] Quick sort
@@ -29,3 +29,5 @@ Still under development:
 - [ ] Show number of comparisons
 - [ ] Description section
 - [ ] Compare two algorithms
+
+- [ ] Styling
