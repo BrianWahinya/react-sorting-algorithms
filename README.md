@@ -11,8 +11,8 @@ Still under development:
 - [x] Selection
 - [x] Insertion
 - [ ] Counting
-- [ ] Merge sort
-- [ ] Quick sort
+- [x] Merge sort
+- [x] Quick sort
 - [ ] Shell sort
 - [ ] Heap sort
 - [ ] Radix sort
@@ -30,4 +30,5 @@ Still under development:
 - [ ] Description section
 - [ ] Compare two algorithms
 
+- [ ] Code review and cleanup
 - [ ] Styling
