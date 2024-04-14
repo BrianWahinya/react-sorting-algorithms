@@ -11,6 +11,7 @@ import {
 import icon_sort from "/icon_sort.svg";
 import "./App.css";
 import "./styles/styles.css";
+import { Footer, Navbar } from "./components";
 
 const paths = [
   { path: "/", element: <Home /> },
@@ -35,9 +36,14 @@ function App() {
 function Layout() {
   return (
     <>
-      <header>Navbar</header>
+      {/* <header>Navbar</header> */}
+      <code>
+        Coding & design stage: please be patient{" "}
+        <span style={{ fontSize: "20px" }}>&#128521;</span>
+      </code>
+      <Navbar />
       <Outlet />
-      <footer>{new Date().getFullYear()} &copy; BrianWahinya</footer>
+      <Footer />
     </>
   );
 }

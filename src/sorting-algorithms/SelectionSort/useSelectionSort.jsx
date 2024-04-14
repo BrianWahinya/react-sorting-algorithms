@@ -56,7 +56,7 @@ const useSelectionSort = ({ arraySize }) => {
         setUnsortedArray((prev) => prev.filter((elem) => elem.id !== min?.id));
         setSortedArray((prev) => [...prev, min]);
         setMin(null);
-      }, 2000);
+      }, 500);
     }
 
     return () => clearTimeout(timeout);

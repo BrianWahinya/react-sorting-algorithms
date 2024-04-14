@@ -38,7 +38,7 @@ const useQuickHook = (arraySize) => {
     const [head, ...tail] = arr;
     if (head.id !== tgt.id) {
       setComparison(head.id);
-      await delay(1000);
+      await delay(500);
       if (head.value < tgt.value) {
         left.push(head);
       } else {
@@ -59,7 +59,7 @@ const useQuickHook = (arraySize) => {
       });
     }
 
-    await delay(1000);
+    await delay(500);
 
     return await partitionArray(tail, tgt, left, right);
   };
@@ -73,7 +73,7 @@ const useQuickHook = (arraySize) => {
     setPivot(target.id);
     setSubarray(subids);
 
-    await delay(1000);
+    await delay(500);
     const { left, right } = await partitionArray(arr, target);
     const total = [...left, target, ...right];
     setArray((prev) => {
@@ -84,7 +84,7 @@ const useQuickHook = (arraySize) => {
       return sub_prev;
     });
 
-    await delay(1000);
+    await delay(500);
     return [
       ...(await divideArray(left)),
       target,

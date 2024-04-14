@@ -1,0 +1,6 @@
+.div-navbar a {
+  margin: auto 5px;
+}
+.div-navbar a:hover {
+  text-decoration: underline;
+}

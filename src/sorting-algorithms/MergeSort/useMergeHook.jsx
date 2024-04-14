@@ -38,7 +38,7 @@ const useMergeHook = (arraySize) => {
         sorted_arr.push(right[j]);
         j++;
       }
-      await delay(1000);
+      await delay(500);
     }
 
     sorted_arr.push(...left.slice(i));
@@ -60,7 +60,7 @@ const useMergeHook = (arraySize) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(sorted_arr);
-      }, 1000);
+      }, 500);
     });
   };
 
