@@ -1,6 +1,6 @@
 ## React Sorting Algorithms
 
-<!-- [Sorting-algorthms website](https://brian-react-sorting-algorithms.netlify.app/) -->
+[Sorting-algorthms website](https://brian-react-sorting-algorithms.netlify.app/)
 
 Visual approach to show how sorting algorithms work under the hood
 
